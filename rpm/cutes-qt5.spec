@@ -3,9 +3,9 @@ Summary: QtScript environment and "interpreter"
 Version: 0.0.0
 Release: 1
 
-License: LGPLv2
+License: LGPLv2.1+
 Group:	 System/Shells
-URL:     http://github.com/nemomobile/cutes
+URL:     https://git.merproject.org/mer-core/cutes
 Source0: %{name}-%{version}.tar.bz2
 
 BuildRequires: pkgconfig(Qt5Core)
@@ -33,7 +33,6 @@ Requires: %{name} = %{version}-%{release}
 
 %package tests
 Summary:    Tests for cutes
-License:    GPLv2.1
 Group:      System Environment/Libraries
 Requires:   %{name} = %{version}-%{release}
 %description tests
@@ -52,9 +51,6 @@ make %{?jobs:-j%jobs}
 %install
 rm -rf %{buildroot}
 make install DESTDIR=%{buildroot}
-
-%clean
-rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)

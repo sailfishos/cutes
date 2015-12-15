@@ -98,5 +98,5 @@
   Denis Zalevskiy <denis.zalevskiy@jollamobile.com>
 
 * LICENSING
-  cutes is distributed under terms and conditions of the LGPLv2
+  cutes is distributed under terms and conditions of the LGPLv2.1+
   license.
