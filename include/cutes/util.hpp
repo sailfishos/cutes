@@ -9,6 +9,7 @@
 #include <QMetaObject>
 #include <QDebug>
 
+#include <functional>
 #include <memory>
 
 namespace cutes {
