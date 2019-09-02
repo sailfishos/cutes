@@ -39,6 +39,7 @@
 #endif
 #include <QSharedPointer>
 
+#include <functional>
 #include <memory>
 #include <set>
 

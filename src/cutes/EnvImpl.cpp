@@ -675,7 +675,7 @@ void EnvImpl::defer(QJSValue fn)
 {
     if (!fn.isCallable()) {
         QString err("Can defer only function, got %1");
-        err.arg(fn.toString());
+        err = err.arg(fn.toString());
         // TODO engine_.currentContext()->throwError(err);
         return;
     }
